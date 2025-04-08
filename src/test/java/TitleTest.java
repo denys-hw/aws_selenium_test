@@ -19,7 +19,7 @@ public class TitleTest {
 
     @Test
     public void checkTitle() {
-        driver.get("https://example.com");
+        driver.get("https://google.com");
         String title = driver.getTitle();
         System.out.println("Page title is: " + title);
         Assert.assertEquals(title, "Example Domain");
